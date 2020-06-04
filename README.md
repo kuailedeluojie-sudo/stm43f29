@@ -24,3 +24,6 @@
 	Configure ETH_RMII1_TXD1           PB13 
 	Configure GPIO pin : PA8 
 	
+	* IIC引脚
+	PA8
+	PC9
