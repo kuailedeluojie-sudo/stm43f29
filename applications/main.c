@@ -20,7 +20,7 @@
 //2020.03.27文件系统
 #include <dfs_fs.h>
 #include <dfs_file.h>
-
+//2020.6.4  VTOR  VECT_TAB_OFFSET bootloader的重点
 
 /* PLEASE DEFINE the LED0 pin for your board, such as: PC8 */
 #define LED0_PIN    GET_PIN(C, 8)
