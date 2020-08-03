@@ -27,3 +27,12 @@
 	* IIC引脚
 	PA8
 	PC9
+	
+## 升级编辑器后的一些更改
+	 #define RT_DFS_ELM_MAX_SECTOR_SIZE 4096 外部falsh的大小
+#### bootloader的一些设置
+	 VECT_TAB_OFFSET 修改成软件的起始位置
+	 STM32_FLASH_START_ADRESS flash的起始位置
+	 link.lds中设置起始位置
+#### 打印信息串口的设置
+	 Settings 中更多设置-->内核-->内核设备对象-->rt_kprintf控制台

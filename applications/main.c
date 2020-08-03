@@ -37,7 +37,7 @@ int main(void)
     rt_hw_i2c_init("i2c3", GET_PIN(A,8), GET_PIN(C,9));
     //devfs_init();
 
-   // dfs_mkfs("elm","flash0"); //格式化外部flash，挂载文件系统
+    dfs_mkfs("elm","flash0"); //格式化外部flash，挂载文件系统
 
 
         if (dfs_mount("flash0", "/", "elm", 0, 0) == 0)
@@ -48,7 +48,7 @@ int main(void)
     {
         /* set LED0 pin level to high or low */
         rt_pin_write(LED0_PIN, count % 2);
-       // LOG_D("Hello RT-Thread!");
+      // LOG_D("Hello RT-Thread!");
 
         rt_thread_mdelay(1000);
     }
