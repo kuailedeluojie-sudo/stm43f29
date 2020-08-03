@@ -36,3 +36,8 @@
 	 link.lds中设置起始位置
 #### 打印信息串口的设置
 	 Settings 中更多设置-->内核-->内核设备对象-->rt_kprintf控制台
+#### jlink下载的一些配置
+	打开调试配置
+	复制以下到jlink的配置框，点后面的browse 浏览到jlinkgdbservercl.exe所在的路径
+	studio path为studio路径
+	studio path \repo\Extract\Debugger_Support_Packages\SEGGER\J-Link\6.80d
